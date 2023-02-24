@@ -1,0 +1,26 @@
+{
+  "short_name": "SmashTaps PWA",
+  "name": "SmashTaps PWA App",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#4DBA87",
+  "background_color": "#FFFFFF",
+  "gcm_sender_id": "103953800507",
+  "gcm_user_visible_only": true,
+  "permissions": [
+    "gcm",
+    "notifications"
+  ],
+  "icons": [
+    {
+      "src": "/images/smashtaps-favicon.png",
+      "type": "image/svg+xml",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/smashtaps-logo.png",
+      "type": "image/svg+xml",
+      "sizes": "200x200"
+    }
+  ]
+}
