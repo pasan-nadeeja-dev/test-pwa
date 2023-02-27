@@ -53,7 +53,7 @@ function registerServiceWorker() {
 
 function sendSubscriptionToServer(subscription) {
   // Send the subscription object to the server using fetch() or another HTTP client
-  fetch('http://localhost:3000/subscribe', {
+  fetch('https://test-pwa-mgvqbg4dp-pasan-nadeeja-dev.vercel.app/subscribe', {
     method: 'POST',
     body: JSON.stringify(subscription),
     headers: {
